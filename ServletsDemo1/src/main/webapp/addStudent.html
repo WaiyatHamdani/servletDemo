@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>add Student</title>
+<style>
+	.center{
+		margin: auto;
+  		width: 50%;
+ 		border: 3px solid black;
+ 		background-color:lightblue;
+  		padding: 10px;
+	}
+</style>
+</head>
+<body>
+<div class="center">
+<h1>Add Student Form</h1>
+
+<form action="addStudentServlet" method="post">
+	Student Id:
+	<input type="text" name ="id" required /> 
+	<br>
+	name Name:<input type="text" name ="name" required/>
+	<br>
+	Phone:<input type="text" name="phone"/>
+	<br>
+	<input type="submit" value = "Add Student"/>
+</form>
+<a href="home.html"> home </a>
+</div>
+</body>
+</html>
